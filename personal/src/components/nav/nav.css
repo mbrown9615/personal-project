@@ -1,0 +1,70 @@
+.nav-main {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(53, 53, 53, 0.589);
+    padding-left: 20px;
+}
+
+.drop-menu {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    /* background-image: url(https://wallpaperbrowse.com/media/images/flame-1054.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    box-shadow:  0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+.nav-com {
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    text-align: center;
+    align-items: center;
+    text-decoration-line: none;
+}
+
+
+.nav-com:hover {
+    background-color: rgba(126, 126, 126, 0.295);
+    color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition-delay: .1s;
+}
+
+.nav-cont {
+    display: flex;
+    width: 500px;
+}
+
+.alt {
+    display: none;
+    width: 50px;
+}
+
+@media(max-width: 600px){
+    .nav-com {
+        visibility: hidden;
+    }
+
+    .alt {
+        display: inline;
+    }
+}
+
+@media(max-width: 400px){
+
+
+}

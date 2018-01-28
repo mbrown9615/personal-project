@@ -1,0 +1,15 @@
+
+
+.map-main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-cont {
+
+    width: 80%;
+    height: 70vh;
+    margin-top: 100px;
+    position: fixed;
+}
